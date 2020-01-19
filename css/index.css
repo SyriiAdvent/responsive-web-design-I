@@ -1,3 +1,164 @@
-/* Use your own code or past solution for Great Idea Web Page CSS here! */
+*{
+    max-width:100%;
+    /* border: 1px solid red; */
+}
+
+.container {
+    width: 90%;
+    margin: 0 5%;
+}
+
+body {
+    display: flex;
+    /* width: 90%; */
+    /* margin: 2% auto; */
+    line-height: 1.2;
+}
+
+p {
+    font-family: 'Courgette', cursive;
+}
+
+/** Navigation bar**/
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 3% 5%;
+}
+
+.nav-bar{
+	width: 100%;
+}
+
+.nav-bar a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	width: 15%;
+	text-decoration: none;
+	color: #708090;
+}
+
+.nav-bar a:hover {
+    background-color: #4d4dff;
+    transition: 0.5s;
+    color: aqua;
+}
+
+@keyframes scale-up-box {
+    0% {
+        transform: scaleY(0.4);
+        transform-origin: 0% 100%;
+    }
+    100% {
+        transform: scaleY(1);
+        transform-origin: 0% 100%;
+    }
+}
+
+.nav-bar .logo {
+    display: flex;
+    justify-content: right;
+    width: 35%;
+    margin-left: 5%;
+    padding-left: 5%;
+}
 
 
+
+/** slogan area **/
+
+header  section {
+    margin-top: auto;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-around;
+}
+
+header section {
+    padding: 2%;
+}
+
+/* header section div{
+    width: 50%;
+} */
+
+header section h1 {
+    text-align: center;
+    font-size: 80px;
+    margin-top: 7.5%;
+}
+
+.button-start {
+    display: flex;
+    border: 1px solid black;
+	padding: 5px 40px 5px 40px;
+    text-align: center;
+    color: black;
+    background-color: white;
+    font-size: 18px;
+    margin-left: 20%;
+}
+
+.imgsl {
+    width: ;
+}
+
+/** STRETCH GOAL BUTTON HOVER**/
+button:hover{
+	transition-duration: 1s;
+	background-color: black;
+	color: white;
+}
+
+/** Content area 1 **/
+
+.top-content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 3% 1.5%;
+}
+
+.top-content div {
+    width: 49%;
+}
+
+
+/**image breaker **/
+
+.middle-img {
+    width: 100%;
+}
+
+/** Content area 2 **/
+
+.bottom-content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 3% 0;
+}
+
+.bottom-content div {
+    width: 32.5%;
+}
+
+.bottom-content {
+    
+}
+
+address {
+    margin-bottom: 2%;
+}
+
+.copyright {
+    text-align: center;
+}
+
+
+/*TRBL*/
+/*TB RL*/
+/*T RL B*/
+/* T R B L*/
