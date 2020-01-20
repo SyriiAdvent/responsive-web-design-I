@@ -140,7 +140,6 @@ address {
   .mobile-container {
     width: 95%;
     margin-left: 1%;
-    
   }
 
   nav {
@@ -179,7 +178,7 @@ address {
     width: 100%;
     /* margin: 0 2%; */
   }
-  
+
   .top-content div {
     width: 95%;
     margin: 4% 0;
@@ -198,7 +197,7 @@ address {
     width: 100%;
     /* margin: 0 2%; */
   }
-  
+
   .bottom-content div {
     width: 95%;
     margin: 4% 0;
@@ -254,6 +253,10 @@ address {
     /* width: 25%; */
   }
 
+  h1 {
+    font-size: 1rem;
+  }
+
   .imgsl {
     display: none;
   }
@@ -265,19 +268,19 @@ address {
   .top-content {
     padding: 0 3%;
   }
-  
+
   .top-content div {
     width: 95%;
-    margin: 4% 0;
+    margin: 4% 1%;
   }
 
   .bottom-content {
     padding: 0 3%;
   }
-  
+
   .bottom-content div {
     width: 95%;
-    margin: 4% 0;
+    margin: 4% 1%;
   }
 
   .middle-img {
